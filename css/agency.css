@@ -267,12 +267,13 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
-    background-position: center center;
-    background-repeat: none;
+    background: url(../img/allen_bg_b.jpg) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -302,9 +303,15 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+    
+    header {
+        height: 100%;
+    }
+    
+    
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 200px;
+        /*padding-bottom: 200px;*/
     }
 
     header .intro-text .intro-lead-in {
