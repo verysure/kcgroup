@@ -270,7 +270,7 @@ header {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    /*padding: 100px 0;*/
     text-align: center;
     color: #fff;
     background: url(../img/header-bg.jpg) no-repeat bottom center scroll;
@@ -282,7 +282,7 @@ header {
 
 header .intro-text {
     padding-top: 100px;
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
 }
 
 header .intro-text .intro-lead-in {
