@@ -31,7 +31,7 @@ title: KC Group
                 
                 {% for post in site.posts %}
                     <li>
-                      <a class="page-scroll" href="#{{ post.id }}">{{ post.title }}</a>
+                      <a class="page-scroll" href="#{{ post.secid }}">{{ post.title }}</a>
                     </li>
                 {% endfor %}
                 
@@ -85,7 +85,7 @@ title: KC Group
 {% assign sorted_posts = (site.posts | sort: 'order') %}
 {% for post in sorted_posts %}
 
-    <section id="{{ post.id }}">
+    <section id="{{ post.secid }}">
         {{ post.content }}
     </section>
 
