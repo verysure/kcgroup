@@ -1,6 +1,6 @@
 ---
 title: About
-secid: about
+order: 1
 ---
 
 
@@ -9,6 +9,5 @@ secid: about
 
 About KC's Group
 ================
-
 
 This is a brief intro for KC's group.
