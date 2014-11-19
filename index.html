@@ -31,7 +31,7 @@ title: KC Group
                 
                 {% for post in site.posts %}
                     <li>
-                      <a class="page-scroll" href="#{{ post.divid }}">{{ post.title }}</a>
+                      <a class="page-scroll" href="#{{ post.secid }}">{{ post.title }}</a>
                     </li>
                 {% endfor %}
                 
@@ -84,6 +84,9 @@ title: KC Group
 
 
 {% for post in site.posts %}
-    <h1>{{ post.title }}</h1>
-    <p>{{ post.content }}</p>
+
+    <section id="{{ post.secid }}">
+        {{ post.content }}
+    </section>
+
 {% endfor %}
