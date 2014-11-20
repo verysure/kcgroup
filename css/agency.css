@@ -901,14 +901,26 @@ section.mystyle p {
     font-size: 20px;
 }
 
+
+
+
+
 section.mystyle img {
-    width: 30%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-    height: auto;
-    border-radius: 10%;
-    float: left;
+        width: 100%;
+        height: auto;
+        border-radius: 10%;
 }
+
+@media(min-width:450px) {
+    section.mystyle img {
+        width: 30%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        float: left;
+    }
+}
+
+
 
 /*for clearing with images*/
 clear {
