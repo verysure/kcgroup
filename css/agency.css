@@ -11,7 +11,7 @@ html, body {
 
 body {
     overflow-x: hidden;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .text-muted {
@@ -876,8 +876,8 @@ body {
 
 
 section.mystyle{
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    /*font-family: 'Raleway', sans-serif;*/
+    font-size: 22px;
 }
 
 section.mystyle h1 {
@@ -887,12 +887,12 @@ section.mystyle h1 {
 
 section.mystyle h2, h3, h4, h5, h6 {
     text-transform: none;
-    font-size: 25px;
+    font-size: 27px;
 }
 
 
 section.mystyle p {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 
