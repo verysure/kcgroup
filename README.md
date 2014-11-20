@@ -9,16 +9,16 @@ Maintaining Website
 -------------------
 This website uses jekyll as a static website generator. Jekyll will render the markdown posts in `_posts/` folder. Some important things to notice:
 
-- Posts filename should be `YEAR-MO-DA-TITLE.md`
-- In the beginning of each file you should add the following block:
+-   Posts filename has be `YEAR-MO-DA-TITLE.md`
+-   In the beginning of each file you should add the following block:
     
-    ---
-    title: Title
-    secid: secitonid
-    order: somenumber
-    ---
+        ---
+        title: Title
+        secid: secitonid
+        order: somenumber
+        ---
     
-  `title` is for the text that show in navbar, doesn't need to be the same with post title. `secid` is for the webpage to target the posistion to scroll to, needs a unique name but not important. `order` is for how you order the posts in the webite.
+    `title` is for the text that show in navbar, doesn't need to be the same with post title. `secid` is for the webpage to target the posistion to scroll to, needs a unique name but not important. `order` is for how you order the posts in the webite.
   
 
 
