@@ -2,7 +2,7 @@ KC Group Website
 ================
 
 
-This is a website for KC group. Please contact KC for maintain.
+This is a website for KC group. Please contact KC for maintainence.
 
 
 Maintaining Website
@@ -22,7 +22,7 @@ This website uses jekyll as a static website generator. Jekyll will render the m
 
 -   Use the special element `<clear />` I created to clear issues with floating images.
 -   You may edit online at github directly. Github supports markdown language by default so you could preview how it looks.
--   If you are familiar with `git`, you could also edit locally and push the changes to the repository.
+-   If you are familiar with `git`, you could also edit locally and push the changes to the repository. See [github tutorial][5] for more information.
 
 
 
@@ -140,3 +140,6 @@ Data in `img/` and `_post/` are copyrighted by KC group. All other code are Code
 [2]: http://startbootstrap.com/template-overviews/agency/
 [3]: http://fortawesome.github.io/Font-Awesome/
 [4]: http://daringfireball.net/projects/markdown/
+[5]: https://help.github.com/articles/good-resources-for-learning-git-and-github/
+
+
