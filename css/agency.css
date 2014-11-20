@@ -904,13 +904,22 @@ section.mystyle p {
 section.mystyle img {
     width: 30%;
     margin-right: 5%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     height: auto;
     border-radius: 10%;
     float: left;
 }
 
-section.mystyle .contentstyle div {
+/*section.mystyle .contentstyle div {
+    clear: both;
+}*/
+
+
+clear {
+    display:block;
+    margin:0;
+    padding:0;
+    border:0;
     clear: both;
 }
 
