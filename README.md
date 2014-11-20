@@ -9,7 +9,7 @@ Maintaining Website
 -------------------
 This website uses jekyll as a static website generator. Jekyll will render the markdown posts in `_posts/` folder. Some important things to notice:
 
--   Posts filename has be `YEAR-MO-DA-TITLE.md`
+-   Posts file name has be `YEAR-MO-DA-TITLE.md`.
 -   In the beginning of each file you should add the following block:
     
         ---
@@ -19,7 +19,10 @@ This website uses jekyll as a static website generator. Jekyll will render the m
         ---
     
     `title` is for the text that show in navbar, doesn't need to be the same with post title. `secid` is for the webpage to target the posistion to scroll to, needs a unique name but not important. `order` is for how you order the posts in the webite.
-  
+
+-   Use the special element `<clear />` I created to clear issues with floating images.
+-   You may edit online at github directly. Github supports markdown language by default so you could preview how it looks.
+-   If you are familiar with `git`, you could also edit locally and push the changes to the repository.
 
 
 
