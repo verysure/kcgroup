@@ -902,6 +902,9 @@ section.mystyle p {
 }
 
 section.mystyle img {
+    width: 30%;
+    height: auto;
+    border-radius: 10%;
     float: left;
 }
 
