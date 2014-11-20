@@ -882,22 +882,23 @@ body {
 /*My own style*/
 
 
-.mystyle{
+section.mystyle{
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.mystyle h1 {
-    font-size: 30px;
+section.mystyle h1 {
+    font-size: 36px;
 }
 
 
-.mystyle h2, h3, h4, h5, h6 {
+section.mystyle h2, h3, h4, h5, h6 {
+    text-transform: none;
+    font-size: 25px;
+}
+
+
+section.mystyle p {
     font-size: 20px;
-}
-
-
-.mystyle p {
-    font-size: 15px;
 }
 
 
