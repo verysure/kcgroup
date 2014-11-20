@@ -106,7 +106,7 @@ Images are a little less natural in markdown. However, it can still be done as f
 
 **Escaping**
 
-As you see, a lot of symbols have functionality in markdown. To show them as what they are, you may use \\ to escape the symbols. Symbols that needs escaping are: \\, \`, \*, \_, \{\}, \[\], \(\), \#, \+, \-, \. and \!.
+As you can see, a lot of symbols have functionality in markdown. To show them as what they are, you may use \\ to escape the symbols. Symbols that needs escaping are: `\\, \`, \*, \_, \{\}, \[\], \(\), \#, \+, \-, \. and \!`.
 
 
 
