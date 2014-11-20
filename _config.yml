@@ -4,4 +4,4 @@ description: "test for kc group website"
 
 
 markdown: rdiscount
-paginate: 10
+paginate: 100
