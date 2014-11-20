@@ -903,8 +903,14 @@ section.mystyle p {
 
 section.mystyle img {
     width: 30%;
+    margin-right: 5%;
+    margin-bottom: 2%;
     height: auto;
     border-radius: 10%;
     float: left;
+}
+
+section.mystyle .contentstyle div {
+    clear: both;
 }
 
