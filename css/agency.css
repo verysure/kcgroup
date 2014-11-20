@@ -901,5 +901,7 @@ section.mystyle p {
     font-size: 20px;
 }
 
-
+section.mystyle img {
+    float: left;
+}
 
