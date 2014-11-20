@@ -8,9 +8,13 @@
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
+        var scrollto = $($anchor.attr('href')).offset().top-70;
+        if(scrollto < 0) {
+            scrollto = 0;
+        }
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top-70
-        }, 1500, 'easeInOutExpo');
+            scrollTop: scrollto
+        }, 1000, 'easeInOutExpo');
         event.preventDefault();
     });
 });
