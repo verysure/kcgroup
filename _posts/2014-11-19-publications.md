@@ -6,9 +6,9 @@ order: 4
 
 
 Publications
-========
+============
 
-This is the publications in KC's group.
+These are the publications in KC's group.
 
 
 1. Sebastian Reineke and Marc A. Baldo, *'Room temperature triplet state spectroscopy of organic semiconductors'*, [Scientific Reports][1], **4**, 3797 (2014).
