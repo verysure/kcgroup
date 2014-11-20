@@ -910,16 +910,21 @@ section.mystyle img {
     float: left;
 }
 
-/*section.mystyle .contentstyle div {
-    clear: both;
-}*/
-
-
+/*for clearing with images*/
 clear {
     display:block;
     margin:0;
     padding:0;
     border:0;
     clear: both;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, rgb(255,255,255), rgb(0,0,0), rgb(255,255,255)); 
+    background-image:    -moz-linear-gradient(left, rgb(255,255,255), rgb(0,0,0), rgb(255,255,255)); 
+    background-image:     -ms-linear-gradient(left, rgb(255,255,255), rgb(0,0,0), rgb(255,255,255)); 
+    background-image:      -o-linear-gradient(left, rgb(255,255,255), rgb(0,0,0), rgb(255,255,255)); 
 }
 
