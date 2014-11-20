@@ -7,6 +7,19 @@ This is a website for KC group. Please contact KC for maintain.
 
 Maintaining Website
 -------------------
+This website uses jekyll as a static website generator. Jekyll will render the markdown posts in `_posts/` folder. Some important things to notice:
+
+- Posts filename should be `YEAR-MO-DA-TITLE.md`
+- In the beginning of each file you should add the following block:
+    
+    ---
+    title: Title
+    secid: secitonid
+    order: somenumber
+    ---
+    
+  `title` is for the text that show in navbar, doesn't need to be the same with post title. `secid` is for the webpage to target the posistion to scroll to, needs a unique name but not important. `order` is for how you order the posts in the webite.
+  
 
 
 
@@ -14,8 +27,7 @@ Maintaining Website
 
 Markdown simple guide
 ---------------------
-The website uses jekyll as a static website generator. Jekyll uses markdown syntax for creating the content. The following is a simple guide for markdown.
-
+Markdown is an intuitive and fast way for content editing. The following is a simple guide. There is also a more complete guide [here][4].
 
 **Headers**
 
@@ -33,7 +45,7 @@ You may also use # for headers.
     
     ## Subsection Header
 
-Note that markdown supports up to six different headers with #. However, for 2~6 # are the same style in this website.
+Note that markdown supports up to six different headers with #. However, for header 2~6 #s are the same in this website style.
 
 
 
@@ -115,7 +127,13 @@ As you can see, a lot of symbols have functionality in markdown. To show them as
 
 
 
-Licence
--------
+Licence and Credit
+------------------
 
-Data in img/ and _post/ are copyright by KC group. Other are under open source licence.
+Data in `img/` and `_post/` are copyrighted by KC group. All other code are Code released under the Apache 2.0 license. Styling uses [Bootstrap][1] ([Agency][2]) and [Font Awesome][3].
+
+
+[1]: http://getbootstrap.com/
+[2]: http://startbootstrap.com/template-overviews/agency/
+[3]: http://fortawesome.github.io/Font-Awesome/
+[4]: http://daringfireball.net/projects/markdown/
