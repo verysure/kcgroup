@@ -86,8 +86,10 @@ title: KC Group
 {% for post in sorted_posts %}
 
     <section id="{{ post.secid }}" class="mystyle">
-        <div class="col-sm-8 col-sm-offset-2">
-            {{ post.content }}
+        <div class="container">
+            <div class="col-sm-8 col-sm-offset-2">
+                {{ post.content }}
+            </div>
         </div>
     </section>
 
